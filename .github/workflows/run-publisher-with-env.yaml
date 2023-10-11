@@ -18,7 +18,7 @@ on:
 
 env:
   apiops_release_version: v4.10.2
-  #By default, this will be Information but if you want something different you will need to add a variable in the Settings  -> Environment -> Environment variables section
+  #By default, this will be Information but if you want something different you' wi'll need to add a variable in the Settings  -> Environment -> Environment variables section
   Logging__LogLevel__Default: ${{ vars.LOG_LEVEL }}
 
 jobs:
